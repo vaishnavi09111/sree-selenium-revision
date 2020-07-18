@@ -18,10 +18,13 @@ public class FindAllLinks {
 //            String hrefval = each.getAttribute("href");
 //            System.out.println(hrefval);
 //        }
-        for (int i = 1; i<=n; i=i+1)
+        for (int i = 0; i<n; i=i+1)
         {
             String text = alllinks.get(i).getText();
             System.out.println(text);
         }
+//        for (WebElement each:alllinks) {
+//            System.out.println(each.getText(); }
+
     }
 }
